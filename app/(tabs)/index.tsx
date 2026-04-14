@@ -46,7 +46,12 @@ export default function App() {
       {/* Điều hướng Tuần 7 */}
       <Link href={"/week07" as any} style={[styles.linkButton, { backgroundColor: '#f39c12' }]}>
         Tuần 7: Validation & Alert Thông Báo
-      </Link>          
+      </Link>    
+
+      {/* Điều hướng Tuần 9 */}
+      <Link href={"/week09" as any} style={[styles.linkButton, { backgroundColor: '#8e44ad' }]}>
+        Tuần 9: Gesture Animation (Màn hình Tra Cứu)
+      </Link>            
       
     </ScrollView>
   );
