@@ -33,6 +33,14 @@ export default function App() {
       {/* Điều hướng Tuần 5 */}
       <Link href={"/week05" as any} style={[styles.linkButton, { backgroundColor: '#e74c3c' }]}>
         Tuần 5: Redux & Quản lý trạng thái
+      </Link>      
+
+      {/* Điều hướng Tuần 6 */}
+      <Link href={"/week06" as any} style={[styles.linkButton, { backgroundColor: '#d81b60' }]}>
+        Tuần 6 - Bài 1: Đăng nhập & Modal Vân tay
+      </Link>
+      <Link href={"/week06/promo" as any} style={[styles.linkButton, { backgroundColor: '#2b6cb0' }]}>
+        Tuần 6 - Bài 2: Modal Quảng cáo
       </Link>          
       
     </ScrollView>
