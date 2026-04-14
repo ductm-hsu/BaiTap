@@ -24,6 +24,16 @@ export default function App() {
       <Link href={"/week03" as any} style={[styles.linkButton, { backgroundColor: '#9b59b6' }]}>
         Tuần 3: Navigation (Stack & Tab)
       </Link>
+
+      {/* Điều hướng Tuần 4 */}
+      <Link href={"/week04/week04" as any} style={[styles.linkButton, { backgroundColor: '#e84393' }]}>
+        Tuần 4: Giao diện VssID (Icons & Buttons)
+      </Link>  
+
+      {/* Điều hướng Tuần 5 */}
+      <Link href={"/week05" as any} style={[styles.linkButton, { backgroundColor: '#e74c3c' }]}>
+        Tuần 5: Redux & Quản lý trạng thái
+      </Link>          
       
     </ScrollView>
   );
