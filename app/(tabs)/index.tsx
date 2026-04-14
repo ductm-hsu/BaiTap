@@ -41,6 +41,11 @@ export default function App() {
       </Link>
       <Link href={"/week06/promo" as any} style={[styles.linkButton, { backgroundColor: '#2b6cb0' }]}>
         Tuần 6 - Bài 2: Modal Quảng cáo
+      </Link>      
+
+      {/* Điều hướng Tuần 7 */}
+      <Link href={"/week07" as any} style={[styles.linkButton, { backgroundColor: '#f39c12' }]}>
+        Tuần 7: Validation & Alert Thông Báo
       </Link>          
       
     </ScrollView>
