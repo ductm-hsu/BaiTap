@@ -56,7 +56,12 @@ export default function App() {
       {/* Điều hướng Tuần 10 */} 
       <Link href={"/week10" as any} style={[styles.linkButton, { backgroundColor: '#27ae60' }]}>
         Tuần 10: API & Redux-Thunk (Tra Cứu)
-      </Link>               
+      </Link>       
+
+      {/* Điều hướng Tuần 11 */}
+      <Link href={"/week11" as any} style={[styles.linkButton, { backgroundColor: '#34495e' }]}>
+        Tuần 11: Đăng nhập với Secure Store
+      </Link>              
       
     </ScrollView>
   );
