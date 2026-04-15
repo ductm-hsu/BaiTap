@@ -61,7 +61,12 @@ export default function App() {
       {/* Điều hướng Tuần 11 */}
       <Link href={"/week11" as any} style={[styles.linkButton, { backgroundColor: '#34495e' }]}>
         Tuần 11: Đăng nhập với Secure Store
-      </Link>              
+      </Link>       
+
+      {/* Điều hướng Tuần 12 */}
+      <Link href={"/week12" as any} style={[styles.linkButton, { backgroundColor: '#e67e22' }]}>
+        Tuần 12: Notification (My Reminder)
+      </Link>             
       
     </ScrollView>
   );
