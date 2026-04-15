@@ -66,7 +66,12 @@ export default function App() {
       {/* Điều hướng Tuần 12 */}
       <Link href={"/week12" as any} style={[styles.linkButton, { backgroundColor: '#e67e22' }]}>
         Tuần 12: Notification (My Reminder)
-      </Link>             
+      </Link>  
+
+      {/* Điều hướng Tuần 13 */}
+      <Link href={"/week13" as any} style={[styles.linkButton, { backgroundColor: '#16a085' }]}>
+        Tuần 13: Quản lý Khóa Học (Image Picker & Firebase)
+      </Link>                 
       
     </ScrollView>
   );

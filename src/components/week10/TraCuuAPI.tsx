@@ -31,7 +31,7 @@ const AnimatedMenuItem = ({ item }: any) => {
 
 export default function TraCuuAPI() {
   const dispatch = useDispatch<AppDispatch>();
-  const { list, loading, error } = useSelector((state: RootState) => state.categories);
+  const { list, loading, error } = useSelector((state: RootState) => state.categories as any);
 
   // Gọi API ngay khi màn hình vừa bật lên
   useEffect(() => {
